@@ -35,7 +35,7 @@ public class Snake {
     
     public boolean inBoundaries(){
         if(x < 0  || x > 490) return false; 
-        if(y < 0 || y > 490) return false;
+        if(y < 0  || y > 490) return false;
         return true; 
     }
     public boolean hasCollisionWithCoin(Coin coin){
